@@ -1,0 +1,146 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #ffffff;
+  }
+    body {
+      background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    }
+    .conteiner{
+      border: rgb(243, 242, 242);
+  
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    .outlined-text {
+      font-size: 24px;
+  }
+  
+  .red-outline {
+      color: red; 
+      background-color: yellow; 
+      padding: 2px; 
+      border: 2px solid blue; 
+  }
+  form {
+    width: 40%;
+    border: #000000 1px solid;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    width: 100%; 
+    background-color: #430a6f;
+    padding: 20px;
+    z-index: 1;
+  }
+  .link li {
+    font-size: 30px;
+    list-style: none;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  nav {
+    justify-content: space-around;
+    display: flex;
+  }
+  
+  .sidebar {
+    position: relative;
+    width: 25%;
+    float: left;
+    left: 10px;
+  }
+  p {
+    margin: 10px 20px;
+    color: #ffffff;
+  }
+  h3 {
+    color: #ffffff;
+  }
+  h3::first-letter {
+    font-size: 30px;
+    color: #C850C0;
+  }
+  table {
+    border-collapse: collapse;
+    color: #ffffff;
+  }
+  td, th {
+    text-align: left;
+    border: #ffffff 1px solid;
+    margin: 10px;
+    padding: 10px;
+  }
+  main {
+    float: right;
+    width: 75%;
+  }
+  img {
+    width: 50%;
+  }
+  .box  {
+    margin-bottom: 100px;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    color: #fff;
+    padding: 10px;
+  }
+  @media (max-width: 472px){
+    .sidebar {
+        width: 100%;
+    }
+    main {
+        float: none;
+        width: 100%;
+    }
+  }
+  @media (max-width: 742px){
+    .sidebar {
+        width: 100%;
+    }
+    table {
+        margin: auto;
+    }
+    h3 {
+        text-align: center;
+    }
+    main {
+        float: none;
+        width: 100%;
+    }
+  }
+  @media (max-width: 990px){
+    .sidebar {
+        width: 100%;
+    }
+    table {
+        margin: auto;
+    }
+    h3 {
+        text-align: center;
+    }
+    main {
+        float: none;
+        width: 100%;
+    }
+  }
+  
+  a {
+    color: #d7f130; 
+  }
+  
+  a:hover {
+    color: #e60000; 
+  }
+  a {
+    font-size: 25px; 
+  }
+  
